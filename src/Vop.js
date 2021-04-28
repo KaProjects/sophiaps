@@ -1,14 +1,11 @@
 import './default.css';
-import background from "./icon/bg_logo.jpg";
 import React from "react";
-import Typography from "@material-ui/core/Typography";
-import Container from "@material-ui/core/Container";
 
 
 const Vop = () => {
     return (
         <div class="vop_bg">
-            <div class="vop" >
+            <div class="vop">
 
                 {/*An an valley indeed so no wonder future nature vanity. Debating all she mistaken indulged believed provided declared. He many kept on draw lain song as same. Whether at dearest certain spirits is entered in to. Rich fine bred real use too many good. She compliment unaffected expression favourable any. Unknown chiefly showing to conduct no. Hung as love evil able to post at as.*/}
 

@@ -1,6 +1,5 @@
 import './default.css';
 import React from "react";
-import Container from '@material-ui/core/Container';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Home from "./Home";
 import Vop from "./Vop"
@@ -15,7 +14,6 @@ const App = () => {
                     <Route exact path="/vop" render={props => <Vop {...props} />}/>
                 </Switch>
             </Router>
-
 
 
             {/*-<br/>*/}
