@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './default.css';
+import React from "react";
+import Container from '@material-ui/core/Container';
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import Home from "./Home";
+import Vop from "./Vop"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <>
+
+            <Router>
+                <Switch>
+                    <Route exact path="/" render={props => <Home {...props} />}/>
+                    <Route exact path="/vop" render={props => <Vop {...props} />}/>
+                </Switch>
+            </Router>
+
+
+
+            {/*-<br/>*/}
+            {/*<Typography class="text">Personal Shopping s. r. o. ©2021</Typography>*/}
+        </>
+    );
+};
 
 export default App;

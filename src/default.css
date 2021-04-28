@@ -1,0 +1,36 @@
+.home {
+    background-image: url(icon/bg_logo.jpg);
+
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.contact {
+    font-family: 'Avenir-Book', 'Roboto', cursive;
+    color: #e0b477;
+    /*background-color: black;*/
+}
+.listitem {
+    height: 40px;
+}
+.icon {
+    /*background-color: black;*/
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+
+}
+.vop {
+    font-family: 'Avenir-Book', cursive;
+    color: #e0b477; /*maco*/
+    /*color: #bfa755; !*first*!*/
+    padding: 10% 15%;
+}
+.vop_bg {
+    background-image: url(icon/bg_plain.jpg);
+    background-repeat: repeat;
+    height: 100vh; /*ak malo textu*/
+}
