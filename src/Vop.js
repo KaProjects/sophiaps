@@ -1,5 +1,7 @@
 import './default.css';
 import React from "react";
+import Footer from "./Footer";
+import Container from "@material-ui/core/Container";
 
 
 const Vop = () => {
@@ -29,6 +31,7 @@ const Vop = () => {
 
 
             </div>
+            <Footer/>
         </div>
     );
 };
