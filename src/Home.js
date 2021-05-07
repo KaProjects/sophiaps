@@ -7,18 +7,19 @@ import React from "react";
 import Typography from '@material-ui/core/Typography';
 import {Link, List, ListItem, ListItemIcon, ListItemText} from "@material-ui/core";
 import Container from "@material-ui/core/Container";
+import Footer from "./Footer";
 
 const Home = () => {
     return (
-        <Container class="home">
-            <List style={{position: "absolute", bottom: 20, right: 20}}>
+        <Container className="home">
+            <List style={{position: "absolute", bottom: 30}}>
                 <ListItem className="listitem">
                     <ListItemIcon>
                         <img src={igLogo} className="icon"/>
                     </ListItemIcon>
                     <ListItemText>
                         <Link href="https://www.instagram.com/sophia.personalshopper/" target="_blank" color="inherit">
-                            <Typography class="contact" style={{paddingBottom: "3px"}}>
+                            <Typography className="contact" style={{paddingBottom: "3px", fontSize: "0.8em"}}>
                                 sophia.personalshopper
                             </Typography>
                         </Link>
@@ -30,7 +31,7 @@ const Home = () => {
                         <img src={phoneLogo} className="icon"/>
                     </ListItemIcon>
                     <ListItemText>
-                        <Typography class="contact" style={{paddingBottom: "0px"}}>
+                        <Typography className="contact" style={{paddingBottom: "0px", fontSize: "0.8em"}}>
                             +421 904 443 697
                         </Typography>
                     </ListItemText>
@@ -41,7 +42,7 @@ const Home = () => {
                     </ListItemIcon>
                     <ListItemText>
                         <Link href="mailto:personalshopper.sophia@gmail.com" color="inherit">
-                            <Typography class="contact" style={{paddingBottom: "3px"}}>
+                            <Typography className="contact" style={{paddingBottom: "3px", fontSize: "0.8em"}}>
                                 personalshopper.sophia@gmail.com
                             </Typography>
                         </Link>
@@ -54,14 +55,14 @@ const Home = () => {
                     </ListItemIcon>
                     <ListItemText>
                         <Link href="/vop" color="inherit">
-                            <Typography class="contact" style={{paddingBottom: "0px"}}>
-                                VOP / Všeobecné obchodní podmínky
+                            <Typography className="contact" style={{paddingBottom: "0px", fontSize: "0.8em"}}>
+                                Všeobecné obchodné podmienky
                             </Typography>
                         </Link>
                     </ListItemText>
-
                 </ListItem>
             </List>
+            <Footer/>
         </Container>
     );
 };

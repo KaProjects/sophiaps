@@ -1,5 +1,5 @@
 .home {
-    background-image: url(icon/bg_logo.jpg);
+    background-image: url(bg/main.jpg);
 
     height: 100vh;
 
@@ -10,17 +10,19 @@
 }
 .contact {
     font-family: 'Avenir-Book', 'Roboto', cursive;
-    color: #e0b477;
+    color: #e0bb91;
+    /*color: #e0b477; */ /*od maca*/
+    font-size: 0.8em;
     /*background-color: black;*/
 }
 .listitem {
-    height: 40px;
+    height: 1.5em;
 }
 .icon {
     /*background-color: black;*/
-    width: 25px;
-    height: 25px;
-    margin-left: 20px;
+    width: 1em;
+    height: 1em;
+    margin-left: 2em;
 
 }
 .vop {
@@ -30,7 +32,13 @@
     padding: 10% 15%;
 }
 .vop_bg {
-    background-image: url(icon/bg_plain.jpg);
+    background-image: url(bg/plain.jpg);
     background-repeat: repeat;
     height: 100vh; /*ak malo textu*/
+}
+.footer {
+    position:absolute;
+    left:0;
+    bottom: 5px;
+    right:0;
 }

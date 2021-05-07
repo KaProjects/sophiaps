@@ -3,6 +3,8 @@ import React from "react";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Home from "./Home";
 import Vop from "./Vop"
+import Typography from "@material-ui/core/Typography";
+import Container from "@material-ui/core/Container";
 
 const App = () => {
     return (
@@ -14,10 +16,6 @@ const App = () => {
                     <Route exact path="/vop" render={props => <Vop {...props} />}/>
                 </Switch>
             </Router>
-
-
-            {/*-<br/>*/}
-            {/*<Typography class="text">Personal Shopping s. r. o. ©2021</Typography>*/}
         </>
     );
 };
